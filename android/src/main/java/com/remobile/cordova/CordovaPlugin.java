@@ -37,7 +37,7 @@ import org.json.JSONException;
 
 
 public abstract class CordovaPlugin extends ReactContextBaseJavaModule implements ActivityEventListener, LifecycleEventListener {
-    public static final int RESULT_STEP = 1000000;
+    public static final int RESULT_STEP = 10000;
     public static int CURRENT_RESULT = 0;
 
     public CordovaInterface cordova;
